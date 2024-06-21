@@ -1,0 +1,204 @@
+/**********************************RESET CSS*************************************/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        min-height: 100dvh;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: #333;
+        font-size: 0.9em;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        padding: .75em 1.5em;
+        border-radius: 1em;
+        background-color: none;
+    }
+/**********************************RESET CSS*************************************/
+
+/**********************************REUSABLE CSS*************************************/
+    /**********************************Structure*************************************/
+    .wrapper {
+        padding-block: 7em;
+        margin-inline: auto;
+        width: min(100% - 3em, 900px);
+    }
+
+    .flow > * + *{
+        margin-top: 1em;
+    }
+    /**********************************Structure*************************************/
+
+
+    /**********************************Color and background*************************************/
+    .bg-primary {
+        background-color: #1F2937;
+    }
+
+    .bg-secondary {
+        background-color: #3882F6;
+    }
+
+    .bg-secondary-alt {
+        background-color: #E5E7EB;
+    }
+    /**********************************Color and background*************************************/
+
+    /**********************************Buttons*************************************/
+    .btn-primary {
+        color: white;
+        background-color: #3882F6;
+    }
+
+    .btn-secondary {
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+    }
+    /**********************************Buttons*************************************/
+
+    /**********************************Typography*************************************/
+    .text, .nav-links {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+    /**********************************Typography*************************************/
+/**********************************REUSABLE CSS*************************************/
+
+
+/**********************************HEADER*************************************/
+.header .wrapper {
+    padding-block: 1em;
+
+    gap: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+/**********************************HEADER*************************************/
+
+
+/**********************************HERO*************************************/
+.hero .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .wrapper > *{
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+/**********************************HERO*************************************/
+
+
+/**********************************ABOUT*************************************/
+.about .wrapper {
+    padding-inline: 5em;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about img {
+    aspect-ratio: 1/1;
+    border-radius: 1em;
+}
+
+.cards {
+    gap: 2em;
+    display: flex;
+    justify-content: center;
+}
+/**********************************ABOUT*************************************/
+
+
+/**********************************QUOTE*************************************/
+    .quote .wrapper {
+        margin-inline: auto;
+        width: min(100%, 70ch);
+    }
+
+    .quote-text {
+        color: #444;
+        display: block;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .cite {
+        display: block;
+        text-align: right;
+
+
+        color: #1F2937;
+        font-weight: bolder;
+    }
+/**********************************QUOTE*************************************/
+
+
+/**********************************ACTION*************************************/
+.action-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 3em 5em;
+    border-radius: .5em;
+}
+
+.action-description {
+    color: white;
+    width: min(100%, 55ch);
+}
+/**********************************ACTION*************************************/
+
+
+/**********************************FOOTER*************************************/
+.footer {
+    padding: 1em;
+}
+
+.footer p {
+    text-align: center;
+}
