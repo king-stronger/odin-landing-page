@@ -114,6 +114,7 @@
 /**********************************HERO*************************************/
 .hero .wrapper {
     display: flex;
+    gap: 5em;
     align-items: center;
     justify-content: space-between;
 }
@@ -127,12 +128,16 @@
     color: #F9FAF8;
     font-weight: bolder;
 }
+
+.hero img {
+    border-radius: 1em;
+}
 /**********************************HERO*************************************/
 
 
 /**********************************ABOUT*************************************/
 .about .wrapper {
-    padding-inline: 5em;
+    padding-inline: 4em;
 }
 
 .about h2 {
