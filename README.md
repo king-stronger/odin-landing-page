@@ -14,8 +14,8 @@ odin-landing-page/
     ├── assets/  
         │   
         └── css/  
-            │  
-            └── styles.css # Styles for the landing page
+        │  
+        └── styles.css # Styles for the landing page
 
 
 ## Features
