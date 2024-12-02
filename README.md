@@ -8,13 +8,13 @@ The landing page features sections for introducing the product, showcasing its b
 
 ## Project Structure
 
-odin-landing-page/ 
-    │ 
-    ├── index.html # Main landing page HTML file 
-    ├── assets/ 
-        │ 
-        └── css/ 
-            │ 
+odin-landing-page/  
+    │  
+    ├── index.html # Main landing page HTML file  
+    ├── assets/  
+        │   
+        └── css/  
+            │  
             └── styles.css # Styles for the landing page
 
 
