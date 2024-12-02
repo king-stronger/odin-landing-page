@@ -6,17 +6,6 @@ This project is a simple landing page designed as part of The Odin Project's cur
 
 The landing page features sections for introducing the product, showcasing its benefits, and encouraging users to take action. The page includes a header, a hero section, an "About" section with product details, a testimonial, a call to action, and a footer.
 
-## Project Structure
-
-odin-landing-page/  
-    │  
-    ├── index.html # Main landing page HTML file  
-    ├── assets/  
-        │   
-        └── css/  
-        │  
-        └── styles.css # Styles for the landing page
-
 
 ## Features
 
